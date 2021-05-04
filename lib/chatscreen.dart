@@ -53,23 +53,23 @@ class _ChatScreenState extends State<ChatScreen> {
   @override
   Widget build(BuildContext context) {
     return Column(
-        children: [
-          Flexible(
-            child: ListView.builder(
-              padding: EdgeInsets.all(8),
-              reverse: true,
-              itemBuilder: (_,int index) => _messages[index],
-              itemCount: _messages.length,
-            ),
+      children: [
+        Flexible(
+          child: ListView.builder(
+            padding: EdgeInsets.all(8),
+            reverse: true,
+            itemBuilder: (_,int index) => _messages[index],
+            itemCount: _messages.length,
           ),
-          Divider(height: 2.0,),
-          Container(
-            decoration: BoxDecoration(
-              color: Colors.blue,
-            ),
-            child: _textComposerWidget(),
-          )
-        ],
-      );
+        ),
+        Divider(height: 2.0,),
+        Container(
+          decoration: BoxDecoration(
+            color: Colors.blue,
+          ),
+          child: _textComposerWidget(),
+        )
+      ],
+    );
   }
 }

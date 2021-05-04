@@ -7,12 +7,31 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: "Chatting with facebook",
+      title: "Facebooke app",
+      home: Homepage(),
       theme: ThemeData(
         brightness: Brightness.light,
-        accentColor: Colors.red,
+        accentColor: Colors.blueAccent,
       ),
-      home: Homepage(),
     );
   }
 }
+
+// import 'package:flutter/material.dart';
+// import 'homepage.dart';
+
+// void main() => runApp(new MyApp());
+
+// class MyApp extends StatelessWidget {
+//   @override
+//   Widget build(BuildContext context) {
+//     return MaterialApp(
+//       title: "Chatting with facebook",
+//       theme: ThemeData(
+//         brightness: Brightness.dark,
+//         accentColor: Colors.red,
+//       ),
+//       home: Homepage(),
+//     );
+//   }
+// }
