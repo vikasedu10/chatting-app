@@ -1,6 +1,11 @@
 # chatapp
 
-A new Flutter project.
+A new Chatting Flutter project developed for chatting. 
+
+## Features supported:
+1. Signup / Login to account
+2. Send messages & receive messages just like whatsapp
+3. Google Firebase database
 
 ## Getting Started
 
